@@ -1,10 +1,13 @@
 import './App.css';
-import NavBar from './component/NavBar'
+import SaveToSpotify from './component/SaveToSpotify';
+import SearchButton from './component/SearchButton';
 
 function App() {
-   return (
-
-   <NavBar/>
+   return(
+      <>
+      <SearchButton/>
+      <SaveToSpotify/>
+      </>
    )
 }
 
