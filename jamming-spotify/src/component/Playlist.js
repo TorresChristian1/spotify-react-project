@@ -1,7 +1,12 @@
 import React from 'react'
 
 export default function Playlist() {
+  
+  const playlistMusic = '';
+
   return (
-    <div>Playlist</div>
+    <div>
+        <h1>{playlistMusic}</h1>
+    </div>
   )
 }
